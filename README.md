@@ -1,6 +1,3 @@
-# Context-Aware-Heart-Rate-Monitoring-System
-Machine learning-based heart rate monitoring system developed in MATLAB for activity classification and abnormality detection.
-
 # Context-Aware Heart Rate Monitoring System
 
 A MATLAB-based machine learning project that classifies heart rate data into **Rest** and **Physical Activity** using a Support Vector Machine (SVM). Based on the predicted activity state, the system detects **Bradycardia** and **Tachycardia**, reducing false alerts associated with fixed heart rate thresholds.
