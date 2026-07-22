@@ -20,7 +20,7 @@ A MATLAB-based machine learning project that classifies heart rate data into **R
 * Trains the Support Vector Machine (SVM) classifier.
 * Compares the performance of multiple machine learning models.
 * Evaluates the classifier using accuracy, confusion matrices, and performance metrics.
-* Saves the trained model as `svm_model.mat` for use in `heartbeat.m`.
+* Saves the trained model as `svm_model.mat` for use in `heartbeat.mlx`.
 
 ## Datasets
 
@@ -29,7 +29,7 @@ The project uses two categories of datasets:
 * **`kaggle_datasets/`** – Original heart rate datasets obtained from Kaggle.
 * **`synthesized_datasets/`** – Custom-generated datasets developed to simulate additional cardiac conditions and activity states for training and evaluation.
 
-> **Important:** Keep both `kaggle_datasets` and `synthesized_datasets` in the same project directory as `heartbeat.m`, `svm_model.m`, and `svm_model.mat`. The MATLAB scripts are configured to load the datasets from these folders.
+> **Important:** Keep both `kaggle_datasets` and `synthesized_datasets` in the same project directory as `heartbeat.mlx` and `svm_model.mat`. The MATLAB scripts are configured to load the datasets from these folders.
 
 ## Requirements
 
@@ -45,8 +45,8 @@ The project uses two categories of datasets:
    * `svm_model.mat`
    * `kaggle_datasets`
    * `synthesized_datasets`
-3. Run `svm_model.m` to train and evaluate the SVM classifier.
-4. Run `heartbeat.m` to perform heart rate classification, dataset comparison, waveform visualization, and cardiac condition detection.
+3. Run `svm_model.mat` to train and evaluate the SVM classifier.
+4. Run `heartbeat.mlx` to perform heart rate classification, dataset comparison, waveform visualization, and cardiac condition detection.
 
 ## Future Scope
 
