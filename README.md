@@ -4,7 +4,7 @@ A MATLAB-based machine learning project that classifies heart rate data into **R
 
 ## Repository Contents
 
-### `heartbeat.m`
+### `heartbeat.mlx`
 
 * Loads the trained SVM model (`svm_model.mat`).
 * Classifies heart rate data into **Rest** or **Physical Activity**.
@@ -13,7 +13,7 @@ A MATLAB-based machine learning project that classifies heart rate data into **R
 * Generates waveform visualizations and comparison plots.
 * Displays prediction and monitoring results.
 
-### `svm_model.m`
+### `svm_model.mat`
 
 * Loads the Kaggle and synthesized datasets.
 * Preprocesses the datasets for machine learning.
@@ -41,8 +41,7 @@ The project uses two categories of datasets:
 1. Clone or download this repository.
 2. Ensure the following are located in the same project directory:
 
-   * `heartbeat.m`
-   * `svm_model.m`
+   * `heartbeat.mlx`
    * `svm_model.mat`
    * `kaggle_datasets`
    * `synthesized_datasets`
